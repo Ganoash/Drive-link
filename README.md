@@ -1,0 +1,2 @@
+# Drive-link
+[casus] De lokale klimverenging heeft sinds kort naast hun huidige Wordpress site ook een G-suite. Jaarlijks moeten nieuwe accounts voor nieuwe gebruikers van de G-suite gemaakt worden, aan de hand van de ledendatabase die op de Wordpress site staat. In dit project heb ik een plugin gemaakt die beide databases linkt, en admins de mogelijkheid geeft om via de site gebruikers aan de G-suite toe te voegen en te verwijderen.
