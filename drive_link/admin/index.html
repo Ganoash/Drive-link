@@ -1,0 +1,41 @@
+<p id="wait_for_load">Pagina aan het laden..</p>
+<div class="api_searchbar">
+<input type="text" id="api_zoek" class="api_search">
+    <button id="api_users" class="api_search">Alle Gebruikers</button>
+    <button id="api_members" class="api_search">Gebruikers per Groep</button>
+    <button id="api_groups" class="api_search">Alle Groepen</button>
+    <button id="api_add_users" class="api_search">Gebruikers toevoegen</button>
+</div>
+<div class="api_container"></div>
+<div id="back_footer"><button id="back_footer_link">Vorige pagina</button></div>
+
+<div class="api_add_user" style="display: none">
+    <div class="add_user_row">
+        <div id="info">
+        <label for="user_search">Zoek Gebruiker:</label>
+            <input id="user_search" type="text" list="users">
+        </div>
+        <div class="info">
+            <label for="first_name_info">Voornaam</label>
+            <p id="first_name_info"></p>
+        </div>
+        <div class="info">
+            <label for="last_name_info">Achternaam</label>
+            <p id="last_name_info"></p>
+        </div>
+        <div class="info">
+            <label for="username_info">Google Email</label>
+            <p id="username_info"></p>
+        </div>
+        <div class="info">
+            <label for="email_info">Google Herstel Email</label>
+            <p id="email_info"></p>
+        </div>
+            <button id="show_user" type="button">Gebruiker laden</button>
+        </div>
+    <div class="add_user_settings">
+        <button id="submit_user">gebruiker toevoegen</button>
+        <p id="error_return"></p>
+    </div>
+</div>
+<div id="google_user"></div>

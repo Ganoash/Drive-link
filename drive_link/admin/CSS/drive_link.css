@@ -1,0 +1,102 @@
+.container {
+    max-width: 90%;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.item:nth-child(even) {
+    background: #626262;
+    color: white;
+}
+
+.item {
+    min-width: 80%;
+    padding-left: 10px;
+
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 2;
+    border: black 1px solid;
+    background: #bababa;
+}
+
+.item:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.api_searchbar {
+    display: inline-flex;
+    flex-flow: row-reverse nowrap;
+    height: 30px;
+}
+
+.api_search[hidden] {
+    display: none;
+}
+
+.api_search {
+
+}
+
+.group_footer a {
+    font-size: 14px;
+    color: #0645AD;
+}
+
+.group_footer {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 14px;
+}
+
+.group_footer:hover{
+    border-bottom: #0645AD solid;
+    cursor: pointer;
+}
+.item:hover:nth-child(even) {
+    background: #404040;
+}
+
+.within {
+    flex: 1;
+    display: flex;
+    font-weight: bold;
+    font-size: 15px;
+    align-content: center;
+
+}
+
+.within .p {
+    flex: 1;
+}
+
+.api_add_user {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-top: 10px;
+}
+
+.add_user_row, .add_member_row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.add_user_settings {
+    display: flex;
+    flex-flow: wrap;
+}
+.info {
+    display: inline-flex;
+    flex-flow: column nowrap;
+}
